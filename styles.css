@@ -167,3 +167,100 @@
      border-radius: 50%;
      padding: 5px;
  }
+
+
+ /* contribute */
+
+ .contribute {
+     width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+
+ .form-group {
+     margin-bottom: 20px;
+ }
+
+ label {
+     display: block;
+     margin-bottom: 8px;
+     font-weight: bold;
+ }
+
+ label span {
+     color: rgb(128, 128, 0);
+ }
+
+ input[type="text"],
+ input[type="url"],
+ textarea {
+     width: 100%;
+     padding: 8px;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     font-size: 14px;
+ }
+
+ input[type="text"]::placeholder,
+ input[type="url"]::placeholder,
+ textarea::placeholder {
+     color: #999;
+ }
+
+ textarea {
+     min-height: 150px;
+     resize: vertical;
+ }
+
+ .submit-btn {
+     background-color: rgb(128, 128, 0);
+     color: white;
+     padding: 12px 30px;
+     border: none;
+     cursor: pointer;
+     font-size: 16px;
+     text-transform: uppercase;
+ }
+
+ .submit-btn:hover {
+     background-color: rgb(108, 108, 0);
+ }
+
+ /* about us */
+
+ .about-container {
+     display: flex;
+     flex-direction: column;
+     gap: 60px;
+     width: 800px;
+     margin: 0 auto;
+     padding: 40px 20px;
+ }
+
+ .description {
+     font-size: 2rem;
+     line-height: 1.5;
+     max-width: 1000px;
+ }
+
+ .description strong {
+     font-weight: 600;
+ }
+
+ .explore-btn-about {
+     display: inline-block;
+     background-color: #8BA862;
+     color: white;
+     text-decoration: none;
+     padding: 20px 40px;
+     width: 50%;
+     border-radius: 50px;
+     font-size: 1.5rem;
+     font-weight: bold;
+     transition: background-color 0.3s ease;
+     text-align: center;
+ }
+
+ .explore-btn:hover {
+     background-color: #7A9455;
+ }
